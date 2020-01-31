@@ -28,18 +28,20 @@
        * Se pueden hacer JOIN de 3 tablas de manera que solo habria que añadir un JOIN al lado del JOIN de la tabla que tenga valores iguales de ambas tablas para correlacionarlas.
    * **CASE**: se usa para comparar valores e indicar lo que se quere mostrar de manera siguiente:
    ```mysql
+   SELECT nombre
+   FROM casa
      CASE WHEN v1=x --Cuando el valor equivale a x.
               THEN ‘Pepe’ --Entonces escribe pepe.
               WHEN v1 = y 
               THEN ‘Pedro’ 
               ELSE ‘algo’ --En caso de que no se cumpla nada de lo anterior escribe “Algo”.
-  	END 		--Finaliza el CASE.
-	```
+  	END; 		--Finaliza el CASE.
+	´´´
 Este seria un ejemplo de codigo con una subconsulta:
 	```mysql
 SELECT name
   FROM world
  WHERE population >= ALL(SELECT population
                            FROM world
-                          WHERE population>0)
+                          WHERE population>0);
 	```
