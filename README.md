@@ -7,7 +7,7 @@
        * LIKE: Sirve para comparar que algo sea igual a algo que declaremos.
 	   		* **%** :Substituye cualquier cantidad de caracteres(También valen números y espacios).
 			* **_**: Substituye un solo carácter. 
-       * **IN**: en ()* Conjunto de valores.
+       * **IN**: en ()* Conjunto de valores (Se puede usar en subconsultas que devuelven mas de 1 columna).
        * **CONCAT**: Concatena 2 o mas valores se escribe de forma: CONCAT(v1,v2,…).
        * **BETWEEN**: Entre valores dados.
        * **XOR**: Excluye un conjunto de valores.
