@@ -1,9 +1,9 @@
 # Apuntes-Bases-de-Datos
 #Apuntes Para SQL:
-   * • SELECT: Escoge la tabla que se va a mostrar.
-    	*AS: Sirve para que al mostrar en la tabla se cambie el nombre de la tabla que se va a mostrar. 
-   * • FROM: La tabla de la que se van a coger los datos.
-   * • WHERE: Función básica para las consultas le precede el conjunto de datos que se va a comparar.
+   * **SELECT**: Escoge la tabla que se va a mostrar.
+    	* **AS**: Sirve para que al mostrar en la tabla se cambie el nombre de la tabla que se va a mostrar. 
+   * **FROM:** La tabla de la que se van a coger los datos.
+   * **WHERE:** Función básica para las consultas le precede el conjunto de datos que se va a comparar.
        * LIKE: Sirve para comparar que algo sea igual a algo que declaremos.
 	   		* **%** :Substituye cualquier cantidad de caracteres(También valen números y espacios).
 			* **_**: Substituye un solo carácter. 
