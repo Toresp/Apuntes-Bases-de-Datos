@@ -38,10 +38,9 @@
   	END; 		--Finaliza el CASE.
 	´´´
 Este seria un ejemplo de codigo con una subconsulta:
-	```mysql
+
 SELECT name
   FROM world
  WHERE population >= ALL(SELECT population
                            FROM world
                           WHERE population>0);
-	```
