@@ -27,7 +27,7 @@
        * Hay distintos tipos de JOIN esta el INNER JOIN que coge los valores en común de ambas tablas, el LEFT JOIN que coge los valores Comunes de ambas tablar y los valores de la tabla de la izquiera y el RIGHT JOIN que hace lo mismo que el LEFT JOIN pero coge en este caso los valores de la derecha
        * Se pueden hacer JOIN de 3 tablas de manera que solo habria que añadir un JOIN al lado del JOIN de la tabla que tenga valores iguales de ambas tablas para correlacionarlas.
    * **CASE**: se usa para comparar valores e indicar lo que se quere mostrar de manera siguiente:
-   ```MariaDB
+   ```sql
    SELECT nombre
    FROM casa
      CASE WHEN v1=x --Cuando el valor equivale a x.
@@ -36,11 +36,12 @@
               THEN ‘Pedro’ 
               ELSE ‘algo’ --En caso de que no se cumpla nada de lo anterior escribe “Algo”.
   	END; 		--Finaliza el CASE.
-	´´´
+   ```
 Este seria un ejemplo de codigo con una subconsulta:
-
+```sql
 SELECT name
   FROM world
  WHERE population >= ALL(SELECT population
                            FROM world
                           WHERE population>0);
+```
