@@ -1,5 +1,5 @@
-# Apuntes-Bases-de-Datos
-#Apuntes Para SQL:
+# Apuntes-Bases-de-Datos#
+##Apuntes Para SQL##:
    * **SELECT**: Escoge la tabla que se va a mostrar.
     	* **AS**: Sirve para que al mostrar en la tabla se cambie el nombre de la tabla que se va a mostrar. 
    * **FROM:** La tabla de la que se van a coger los datos.
