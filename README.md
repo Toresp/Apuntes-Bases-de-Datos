@@ -4,14 +4,14 @@
     	* **AS**: Sirve para que al mostrar en la tabla se cambie el nombre de la tabla que se va a mostrar. 
    * **FROM:** La tabla de la que se van a coger los datos.
    * **WHERE:** Función básica para las consultas le precede el conjunto de datos que se va a comparar.
-       * LIKE: Sirve para comparar que algo sea igual a algo que declaremos.
+       * LIKE: Sirve para comparar que algo sea igual o parecido a algo que declaremos.
 	   		* **%** :Substituye cualquier cantidad de caracteres(También valen números y espacios).
 			* **_**: Substituye un solo carácter. 
        * **IN**: en ()* Conjunto de valores (Se puede usar en subconsultas que devuelven mas de 1 columna).
        * **CONCAT**: Concatena 2 o mas valores se escribe de forma: CONCAT(v1,v2,…).
-       * **BETWEEN**: Entre valores dados.
+       * **BETWEEN**: Entre valores dados, se utiliza para comparar dos valores principalmente.
        * **XOR**: Excluye un conjunto de valores.
-       * **IS**: el valor da es.
+       * **IS**: el valor dado es, se utiliza para si el valor que se proporciona es otro valor para especificar se puede interpretar como "Sabiendo que X es".
        * **NULL**: La tupla no tiene ningún valor.
        * **ALL**: todos los valores dados.
        + **<>**:Indica que los valores a ambos lados están negados (Que estos dos valores sean diferentes).
@@ -19,7 +19,7 @@
    * **ROUND**: redondea los valores datos añadiendo una coma al final del numero que divide para indicar el numero de decimales indicados. ROUND(VALORES/NUMERO,NºDec).
    * **DISTINC**:Para que un valor solo es exprese una vez y no se repita, Se coloca luego del SELECT(Se recomienda no usarlo).
    * **SUM()**: Suma los valores dados.
-   * **COUNT()**:Cuenta la cantidad de veces que se repite el el valor dado.
+   * **COUNT()**:Cuenta la cantidad de veces que se repite el valor dado.
    * **GROUP BY**: Agrupa según el criterio escrito.
    * **HAVING**: Teniendo en cuenta que, se usa para comprobar lo que se tiene por ejemplo HAVING SUM(Something)>=1000000, Teniendo en cuenta que la suma de algo sea superior a un millón 
       *NOTA: Having va siempre despues de GROUP BY()*.
