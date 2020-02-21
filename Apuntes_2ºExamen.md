@@ -30,8 +30,8 @@ Hay 1 lenguaje y 6 sublenguajes
  Borrar la tabla *DROP TABLE* E igual que antes para comprobar IF EXIST <Table name>
  Usando CASCADE elimina todas las subtablas RESTRINCT lo restringe.
  * ALTER TABLE...(Opciones)
-   * ADD [COLUMN] <atributo> <dominio> Añadir una columna
-   * DROP COLUMN <atributo> [CASCADE | RESTRICT] Eliminar una columna.
- * ADD <restriccion>
- * DROP <restriccion>
+   * ADD [COLUMN] _atributo_ _dominio_ Añadir una columna
+   * DROP COLUMN _atributo_ [CASCADE | RESTRICT] Eliminar una columna.
+ * ADD _restriccion_
+ * DROP _restriccion_
  
