@@ -26,4 +26,12 @@ Hay 1 lenguaje y 6 sublenguajes
    ```
  En los checks se pueden meter consultas
 **Para borrar bases de datos:**
- *DROP SCHEMA:*Vale para borrar la base de datos entera pero porsi acaso debemos comprobar si existe con *[IF EXISST] <nombre tabla>*
+ *DROP SCHEMA:*Vale para borrar la base de datos entera pero por si acaso debemos comprobar si existe con *[IF EXISST] <nombre tabla>*
+ Borrar la tabla *DROP TABLE* E igual que antes para comprobar IF EXIST <Table name>
+ Usando CASCADE elimina todas las subtablas RESTRINCT lo restringe.
+ * ALTER TABLE...(Opciones)
+   * ADD [COLUMN] <atributo> <dominio> Añadir una columna
+   * DROP COLUMN <atributo> [CASCADE | RESTRICT] Eliminar una columna.
+ * ADD <restriccion>
+ * DROP <restriccion>
+ 
