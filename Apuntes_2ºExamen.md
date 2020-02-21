@@ -12,6 +12,7 @@ Hay 1 lenguaje y 6 sublenguajes
  * CREATE (SCHEMA|DATABASE)
  * [IF NOT EXISTS] <nome-da-BD>
  * [CHARACRER SET <nomeCoCharset>];
+ *FOREIGN KEY.
  * Restricciones:
  **3º Restriccion**
   * [CONSTRAINT <name-constriccion>] 
@@ -21,5 +22,8 @@ Hay 1 lenguaje y 6 sublenguajes
    [CONSTRAINT <>]
    CHECK Predicado (atributos)
    [[NOT] DEFERRABLE]
-   [INITIALLY INMEDIATE 
+   [INITIALLY INMEDIATE | DEFERRANLE]
    ```
+ En los checks se pueden meter consultas
+**Para borrar bases de datos:**
+ *DROP SCHEMA:*Vale para borrar la base de datos entera pero porsi acaso debemos comprobar si existe con *[IF EXISST] <nombre tabla>*
