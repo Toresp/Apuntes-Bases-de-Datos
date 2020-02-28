@@ -5,7 +5,11 @@ Hay 1 lenguaje y 6 sublenguajes
     * 
   * **TCL** (Transaction Control Language): COMMIT, ROLLBACK.
   * **DCL** (Data Control Languague): ALTER SESSION.
-  
+  Tipos de valores:
+  * Integer
+  * Decimal
+  * Char: Longitud fija entre paréntesis la longitud máxima
+  * Varchar: La longitud es variable entre parentesis el máximo.
 
   
   Formulas
