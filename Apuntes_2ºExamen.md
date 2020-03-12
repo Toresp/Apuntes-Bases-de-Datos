@@ -54,7 +54,7 @@ Hay 1 lenguaje y 6 sublenguajes
    [[NOT] DEFERRABLE]
    [INITIALLY INMEDIATE | DEFERRANLE]
    ```
- En los checks se pueden meter consultas
+ En los checks se pueden meter consultas.
  *DROP SCHEMA:*Vale para borrar la base de datos entera pero por si acaso debemos comprobar si existe con *[IF EXISST] <nombre tabla>*
  Borrar la tabla *DROP TABLE* E igual que antes para comprobar IF EXIST <Table name>
  Usando CASCADE elimina todas las subtablas RESTRINCT lo restringe.
@@ -67,7 +67,15 @@ Hay 1 lenguaje y 6 sublenguajes
   INSERT INTO table_name
        [ ( column_name [, ...] ) ]
        VALUES ( value [, ...] )
-
  ```
+ * Las CONSTRAINTS se crean para evitar fallos en cuanto a referenciar claves foráneas entre tablas modificando una table.
+  Para que se vea mas claro un ejemplo de restriccion muestro una general aqui:
+ ```mysql 
+ ALTER TABLE "nombre_Schema".Nombre_tabla
+ ADD CONSTRAINT Nombre_de_la_constraint
+ --A continuacion la restriccion a añadir en este caso FOREIGN KEY
+    FOREIGN KEY (nombre_de_tabla) 
+ ```
+ ALTER TABLE 
  | SELECT *Se puede insertar un SELECT para hacer una consulta de los datos que vamos a insertar, el select tiene que tener el mismo numero de columnas)
  * 
