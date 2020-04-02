@@ -2,17 +2,21 @@ Hay 1 lenguaje y 6 sublenguajes
   * **DQL** (Data Query Language): SELECT
   * **DML** (Data Manipulation Language):INSERT, UPDATE, DELETE. Opera Sobre datos
   * **DDL** (Data Definition Language): CREATE, ALTER, DROP. Opera sobre os obxectos da BD
-    * 
   * **TCL** (Transaction Control Language): COMMIT, ROLLBACK.
   * **DCL** (Data Control Languague): ALTER SESSION.
-  Tipos de valores:
-  * Integer
-  * Decimal
-  * Char: Longitud fija entre paréntesis la longitud máxima
-  * Varchar: La longitud es variable entre parentesis el máximo.
+  ### Tipos de valores:
+  #### Numericos
+  * **bigint** / **date** / **numeric** / **bit**
+  * **smallint** / **decimal**	/ **smallmoney** / **int** 	
+  * **tinyint** / **money** / **float**
+  ### Fecha y Hora 
+  *	**datetimeoffset** / **datetime2** /	**smalldatetime**
+  * **datetime** /	**time**
+  ### Cadenas 
+  * **char** / **varchar** / **text**
+  * **nchar** / **nvarchar** / **ntext**
 
-  
-  Formulas
+  # Formulas
   Crear tabla:
   ```mysql
   CREATE TABLE table_name (
