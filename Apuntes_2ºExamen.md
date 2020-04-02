@@ -83,3 +83,9 @@ Hay 1 lenguaje y 6 sublenguajes
  ALTER TABLE 
  | SELECT *Se puede insertar un SELECT para hacer una consulta de los datos que vamos a insertar, el select tiene que tener el mismo numero de columnas)
  * 
+# INSTALACIÓN DE MYSQL EN WINDOWS
+ 1.- Ir a la página de MySql correspondiente al siguiente link https://dev.mysql.com/downloads/mysql/.
+ 
+ 2.- Ejecutar el instalador descargado.
+ 
+ 3.- 
