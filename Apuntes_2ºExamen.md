@@ -1,22 +1,38 @@
-Hay 1 lenguaje y 6 sublenguajes
+# Apuntes Segunda Evaluación
+
+## INDICE
+- 1.- [**Introducción**](#1)
+
+- 2.- [**TIPOS DE VALORES**](#2)
+  - 2.1.- [**Numericos**](#21)
+  - 2.2.- [**Fecha y Hora**](#22)
+  - 2.3.- [**Cadenas**](#23) 
+- 3.- [**Fórmulas**](#3)
+- 4.- [**Instalación Sistema Gestor De Bases De Datos**](#4)
+
+
+## INTRODUCCIÓN <a name="1"/>
+
+ Hay 1 **lenguaje** y 6 **sublenguajes**
   * **DQL** (Data Query Language): SELECT
   * **DML** (Data Manipulation Language):INSERT, UPDATE, DELETE. Opera Sobre datos
   * **DDL** (Data Definition Language): CREATE, ALTER, DROP. Opera sobre os obxectos da BD
   * **TCL** (Transaction Control Language): COMMIT, ROLLBACK.
   * **DCL** (Data Control Languague): ALTER SESSION.
-  ### Tipos de valores:
-  #### Numericos
+  
+  ### Tipos de valores:<a name="2"/>
+  #### Numericos<a name="21"/>
   * **bigint** / **date** / **numeric** / **bit**
   * **smallint** / **decimal**	/ **smallmoney** / **int** 	
   * **tinyint** / **money** / **float**
-  ### Fecha y Hora 
+  ### Fecha y Hora <a name="22"/>
   *	**datetimeoffset** / **datetime2** /	**smalldatetime**
   * **datetime** /	**time**
-  ### Cadenas 
+  ### Cadenas <a name="23"/>
   * **char** / **varchar** / **text**
   * **nchar** / **nvarchar** / **ntext**
 
-  # Formulas
+  # Formulas <a name="3"/> 
   Crear tabla:
   ```mysql
   CREATE TABLE table_name (
@@ -83,7 +99,7 @@ Hay 1 lenguaje y 6 sublenguajes
  ALTER TABLE 
  | SELECT *Se puede insertar un SELECT para hacer una consulta de los datos que vamos a insertar, el select tiene que tener el mismo numero de columnas)
  * 
-# INSTALACIÓN DE MYSQL EN WINDOWS
+# INSTALACIÓN DE MYSQL EN WINDOWS <a name="1"/> 
  1.- Ir a la página de MySql correspondiente al siguiente link https://dev.mysql.com/downloads/mysql/.
  
  2.- Ejecutar el instalador descargado.
