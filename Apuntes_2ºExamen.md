@@ -88,4 +88,12 @@ Hay 1 lenguaje y 6 sublenguajes
  
  2.- Ejecutar el instalador descargado.
  
- 3.- 
+ 3.- Nos dirá que tenemos que actualizar el instalador, aceptamos y esperamos a que se termine de descargar la actualización.
+ 
+ 4.- Al iniciarse la instalacion seleccionamos el tipo que queremos en este caso haremos una instalacion full.
+ 
+ 5.- en el siguiente paso clickaremos en Execute para instalar todo lo necesario para que funcione MySql, una vez instalado todo lo necesario avanzamos dandole a next.
+ 
+ 6.- En la siguiente ventana le damos a execute otra vez para que se instalen todos los paquetes necesarios, se configurara todo lo neceasario como por defecto asique aceptamos todo y la instalacion terminará.
+ 
+ 11.- Para empezar a trabajar con MySql instalaremos XAMP para un acceso mas sencillo, con la version portable lo descomprimimos en C:\\ y ya estaría instalado. Una vez instalado lo ejecutaremos y haremos Start apache y MySql, ya estaria todo inserto captura de el resultado:
