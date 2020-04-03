@@ -96,4 +96,4 @@ Hay 1 lenguaje y 6 sublenguajes
  
  6.- En la siguiente ventana le damos a execute otra vez para que se instalen todos los paquetes necesarios, se configurara todo lo neceasario como por defecto asique aceptamos todo y la instalacion terminará.
  
- 11.- Para empezar a trabajar con MySql instalaremos XAMP para un acceso mas sencillo, con la version portable lo descomprimimos en C:\\ y ya estaría instalado. Una vez instalado lo ejecutaremos y haremos Start apache y MySql, ya estaria todo inserto captura de el resultado:
+ 7.- Para empezar a trabajar con MySql instalaremos XAMP para un acceso mas sencillo, con la version portable lo descomprimimos en C:\\ y ya estaría instalado. Una vez instalado lo ejecutaremos y haremos Start apache y MySql, ya estaria todo inserto captura de el resultado:
