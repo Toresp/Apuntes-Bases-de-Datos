@@ -1,6 +1,6 @@
 # Creación de Naves
 * 1.- Create Database Naves; --Se crea la base de datos.
-* 2.- A continuacion muestro capturas de todo el proceso de creacion de tablas con todos sus datos y contraints.
+* 2.- A continuacion muestro capturas de todo el proceso de creacion de tablas con todos sus datos y constraints.
 ## Creación tabla Tripulación
 * ![1](https://user-images.githubusercontent.com/57723793/80109486-d63dc500-857d-11ea-84a1-a86ef8afd6bb.PNG)
 ## Creación tabla Dependencia
